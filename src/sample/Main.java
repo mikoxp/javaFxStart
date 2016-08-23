@@ -6,8 +6,16 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * 
+ * @author moles
+ */
 public class Main extends Application {
-
+    /**
+     *
+     * @param primaryStage primary stage is main scene(grafic_
+     * @throws Exception wrong configuration
+     */
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader=new FXMLLoader();
@@ -23,7 +31,10 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
+    /**
+     * runner
+     * @param args args
+     */
     public static void main(String[] args) {
         launch(args);
     }

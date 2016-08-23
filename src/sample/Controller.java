@@ -13,6 +13,9 @@ import javafx.scene.shape.Circle;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/**
+ *
+ */
 public class Controller {
     public Controller() {
         System.out.println("Controller start");
@@ -37,7 +40,9 @@ public class Controller {
     @FXML
     private ColorPicker colorpiker;
 
-
+    /**
+     * after construction turn on
+     */
     @FXML
     void initialize() {
        System.out.println("Initializer start");

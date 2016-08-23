@@ -16,9 +16,10 @@ public class Main extends Application {
         loader.setController(controller);
         Parent root = loader.load();
         Scene scene=new Scene(root);
-
+        scene.getStylesheets().add("styles/style.css");
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
